@@ -7,3 +7,8 @@ CREATE TABLE MEMBER (
 	admin number(1) DEFAULT 0, -- 0:사용자, 1:관리자
 	PRIMARY key(userid)
 );
+
+INSERT INTO MEMBER values('이소미', 'somi', '1234',
+'gmd@naver.com', '010-1234-1234', 0);
+
+SELECT * FROM MEMBER;
